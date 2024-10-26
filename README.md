@@ -24,7 +24,7 @@ pip install ymbotpy
 1.  频道内@自动回复
     ``` python
     import ymbotpy
-    from ymbotpy.message import DirectMessage, Message, GroupMessage, C2CMessage
+    from ymbotpy.message import Message
 
     class MyClient(ymbotpy.Client):
         async def on_at_message_create(self, message: Message):
